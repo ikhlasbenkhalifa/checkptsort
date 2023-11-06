@@ -1,0 +1,16 @@
+Agorithme ordre
+
+Type
+Tab=Tableau [1..n]
+
+Variables
+T:Tab
+
+Debut
+Pour i allant de 1 a n Faire
+ si T[i]>T[i+1] alors 
+    swap(tab[i], tab[i+1])
+Fin Si
+fin pour
+
+Fin
